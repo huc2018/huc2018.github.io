@@ -9,6 +9,11 @@ body {
     height: 100%;
     font-size: 16px;
     font-family: 'Cubano-Regular';
+/*    two dot let you from this drictary back to the image folder find this image*/
+/*    why we need a backgound for the whole body?
+      anwser: the is a good css coding style can help us seperate
+              complicate css styling.
+    */
     background: url('../img/pattern.jpg') center center;
 }
 @font-face {
@@ -19,4 +24,32 @@ body {
     font-family: 'Nunito-Regular';
     src:local('Nunito-Regular.ttf'),url('Nunito-Regular.ttf') format('truetype');
 }
+/*the hight to 100% can make the the current section filling the whole page for the browser*/
+#cover {
+    height: 100%; 
+    background: url(../img/arizona.jpg) center;
+/*
+    cover make the image as a whole
+    without cover the image like zoomed in
+*/
+    background-size: cover;
+    color: white;
+}
 
+.myQuote {
+/*    for visual purpose use rem*/
+/*    opacity: 0.5;*/
+    background: rgba(0,0,0,0.12);
+    padding: 14rem 20rem 16rem 3rem;
+    font-family: "Cubano-Regular";
+    font-size: 4rem;
+}
+
+.myIntro{
+    
+        font-size: 4rem;
+        font-family: "Cubano-Regular";
+    margin-top: 245px;
+    margin-left: 350px;
+/*    text-align: center;*/
+}
