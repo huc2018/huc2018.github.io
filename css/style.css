@@ -18,16 +18,18 @@ body {
 }
 @font-face {
     font-family: 'Cubano-Regular';
-    src:local('Cubano-Regular.otf'),url('Cubano-Regular.otf') format('opentype');
+    src:local('fonts/Cubano-Regular.otf'),url('fonts/Cubano-Regular.otf') format('opentype');
 }
 @font-face {
     font-family: 'Nunito-Regular';
-    src:local('Nunito-Regular.ttf'),url('Nunito-Regular.ttf') format('truetype');
+    src:local('fonts/Nunito-Regular.ttf'),url('fonts/Nunito-Regular.ttf') format('truetype');
 }
 /*the hight to 100% can make the the current section filling the whole page for the browser*/
 #cover {
     height: 100%; 
     background: url(../img/arizona-m.jpg) center;
+/*    background: url(../img/arizona.jpg) center;*/
+
 /*
     cover make the image as a whole
     without cover the image like zoomed in
@@ -35,7 +37,10 @@ body {
     background-size: cover;
     color: white;
 }
-
+/*myquote and myintro need to be 
+consider about size because
+when you shink the size it can be outof bound
+so take care of it*/
 .myQuote {
 /*    for visual purpose use rem*/
 /*    opacity: 0.5;*/
@@ -49,7 +54,77 @@ body {
     
         font-size: 4rem;
         font-family: "Cubano-Regular";
-    margin-top: 245px;
+    margin-top:15.3125rem;
+/*    margin-top: 245px;*/
     margin-left: 350px;
-/*    text-align: center;*/
+/*    text-align: right;*/
+}
+.bold-color{
+    color: rgb(255, 167, 0);
+}
+
+.btn-lg {
+    background-color: transparent;
+/*    border-radius: 5px;*/
+    border-radius: 0.3125rem;
+/*    border:1px solid rgba(19,128,26,1);*/
+     border: 1px solid rgba(255, 167, 0, 0.7);
+    transition: 0.7s;
+}
+
+.btn-lg:hover,
+.btn-lg:focus,
+.btn-lg:active {
+/*    background-color: rgb(255, 167, 0);*/
+    background-color: rgba(255, 167, 0, 0.7);
+    border: 1px solid rgba(255, 167, 0, 0.7);
+    transition: 0.7s;
+    
+}
+.myBtnStyles{
+    background-color: transparent;
+    border: 1px solid rgba(255, 167, 0, 0.7);
+    transition: 0.7s;
+}
+.myBtnStyles:hover {
+    background-color: rgba(255, 167, 0, 0.94);
+    border: 1px solid rgba(255, 167, 0, 0.7);
+    transition: 0.5s;
+}
+
+
+.fa-arrow-down {
+    margin-left: 35rem;
+    text-align: center;
+    margin-top: 35px;
+    color: white;
+    font-size: 2.5rem;
+}
+
+/*navbar*/
+.navbar-brand{
+    font-family: 'Cubano-Regular';
+    padding-right: 120px;
+        font-size: 1.8rem;
+}
+
+#main-nav {
+/*    font-family: 'Cubano-Regular';*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+}
+
+#main-nav li a{
+    height: 40px;
+/*    padding-top: 12px;*/
+/*    margin-top: 4px;*/
+    border-bottom: 5px solid;
+    border-bottom-color: transparent;
+    transition: 0.5s;
+
+}
+#main-nav li a:hover {
+      border-bottom-color: rgba(255, 167, 0, 0.9);
+/*      background-color: white;*/
+    transition: 0.5s;
 }
