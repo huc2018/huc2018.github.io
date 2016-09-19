@@ -91,7 +91,7 @@ so take care of it*/
 
 .navbar-brand {
     font-family: 'Cubano-Regular';
-    padding-right: 120px;
+/*    padding-right: 120px;*/
     font-size: 1.8rem;
 }
 
@@ -216,6 +216,7 @@ so take care of it*/
     padding-top: 50px;
     position:relative;
 }
+/*create the grey timeline*/
 .timeline:before {
     top:0;
     bottom:0;
@@ -246,9 +247,42 @@ so take care of it*/
     width: 50%;
     float: left;
     border: 1px solid #d4d4d4;
-    padding: 2px;
+    padding: 20px;
     position:relative;
-    box-shadow: 0 1px 6px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.175)
+}
+
+.timeline p{
+    font-family: "Nunito-Regular";
+    font - weight: 700;
+}
+
+.timeline >li:not(.timeline-inverted){
+    padding-right:90px;
+}
+.timeline > li.timeline-inverted{
+    padding-left: 90px;
+}
+
+.timeline > li > .timeline-badge{
+    front-size:1rem; !important;
+    color:#fff;
+    width: 50px;
+    height:50px;
+    line-height:50px;
+    text-align: center;
+    position: absolute;
+    top:16px;
+    left:50%;
+    margin-left: -25px;
+    background-color:  rgb(255, 167, 0);
+    border-top-right-radius:50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius:50%;
+    border-bottom-right-radius: 50%;
+}
+.timeline > li.timeline-inverted > .timeline-panel{
+    float:right;
 }
 
 
