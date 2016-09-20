@@ -21,8 +21,8 @@
                         <br> is
                         <br> a
                         <br> Journey.
-                        <a href="#">
-                            <button type="button" class="btn btn-primary btn-lg">Start Journey</button>
+                        <a href="#" role="button" class="btn btn-primary btn-lg" >
+                           Start the Journey
                         </a>
                     </p>
                 </div>
@@ -44,7 +44,7 @@
             <li class="nav-item"> <a href="#" class="nav-link">Travel</a> </li>
             <li class="nav-item"> <a href="#" class="nav-link">Projects</a> </li>
         </ul>
-        <form class="form-inline pull-xs-right" action="">
+        <form class="form-inline pull-xs-right" action="post">
             <input type="text" class="form-control" placeholder="not functional yet~~">
             <button class="btn myBtnStyles " type="submit">Search</button>
         </form>
@@ -196,12 +196,33 @@
             </div>
         </div>
     </section>
-    
-    <section id="numbers">
-        <div class="section-numbers">
+
+    <section id="contact">
+        <div class="section-contact">
             <div class="container">
                 <div class="row">
-                    <h2></h2>
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Leave me a <span class="bold-color">Message</span>!</h2>
+                        <form role="form" method="post" action="#" class="form-horizontal">
+                            <div class="form-group">
+                                <label for="name" class="col-sm-2 control-label">Name</label>
+                                <div class="col-sm-10">
+                                    <input name="name" placeholder="First &amp; Last Name" type="text" class="form-control"> </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="col-sm-2 control-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input name="email" placeholder="example&#64;domain.com" type="email" class="form-control"> </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="col-sm-2 control-label">Message</label>
+                                <div class="col-sm-10">
+                                    <textarea name="message" placeholder="This is just a Demo  for demonstration(not functional)"  id="message" cols="30" rows="10"></textarea>
+                                    
+                                    </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
