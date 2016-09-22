@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.5">
     <meta name="description" content="changchang's website">
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+<!--        <link rel="stylesheet" href="css/bootstrap.min.css">-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Changchang Hu</title>
 </head>
@@ -20,8 +21,8 @@
                     <p class=" myQuote">Life
                         <br> is
                         <br> a
-                        <br> Journey. <a href="#" role="button" class="btn btn-primary btn-lg">
-                           Start the Journey
+                        <br> Journey. <a href="#" role="button" class="myfont btn btn-lg btn-primary ">
+                           Start Journey
                         </a> </p>
                 </div>
                 <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
@@ -32,21 +33,34 @@
             </div>
         </div>
     </section>
-    <nav class="navbar navbar-dark bg-inverse navbar-full" id="main-nav">
-        <button class="navbar-toggler hidden-sm-up" data-toggle="collapse" data-target="" aria-expaded="false" aria-label="Toggle navigation"></button>
-        <div class="collapse navbar-toggleable-xs" id="#"> <a class="navbar-brand" href="#"><span class="bold-color">Changchang'</span>'s Zone
-       </a> </div>
-        <ul class="nav navbar-nav">
-            <li class="nav-item"> <a href="#" class="nav-link">Home</a> </li>
-            <li class="nav-item"> <a href="#" class="nav-link">Status</a> </li>
-            <li class="nav-item"> <a href="#" class="nav-link">Travel</a> </li>
-            <li class="nav-item"> <a href="#" class="nav-link">Projects</a> </li>
-        </ul>
-        <form class="form-inline pull-xs-right" action="post">
-            <input type="text" class="form-control" placeholder="not functional yet~~">
-            <button class="btn myBtnStyles " type="submit">Search</button>
-        </form>
+    
+    <nav id="main-nav" class="nav navbar-dark nav-bar" role="navigation">
+<!--        <div class="container-fluid">-->
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myTarget"> 
+<!--                <span class="sr-only">Menu</span>-->
+                 <i class="fa bold-color fa-bars fa-2x" aria-hidden="true"></i> </button> <a class="navbar-brand" href="#cover"><span class="bold-color ">Changchang'</span><span class="forWhite">'s Zone </span></a> </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="myTarget">
+                <ul class="nav navbar-nav">
+                    <li><a class="nav-link" href="#">Home</a></li>
+                    <li><a href="#">Status</a></li>
+                    <li><a href="#">Travel</a></li>
+                    <li><a href="#">Projects</a></li>
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search"> </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+            <!-- /.navbar-collapse -->
+<!--        </div>-->
+        <!-- /.container-fluid -->
     </nav>
+    
+    
     <section id="paths">
         <div class="section-paths">
             <div class="container">
@@ -77,8 +91,10 @@
             </div>
         </div>
     </section>
-    <!--    end of path-->
+
+<!--end of path-->
     <!--start path timeline    -->
+    
     <section id="pathline" class="trevel">
         <div class="section-pathline">
             <div class="container">
@@ -150,7 +166,7 @@
             </div>
         </div>
     </section>
-    <!--    end of pathline-->
+<!--        end of pathline-->
     <section id="section-paral" data-type="backgournd" data-speed="4">
         <div class="container">
             <div class="row">
@@ -214,13 +230,12 @@
                             <div class="form-group">
                                 <label for="message" class="col-sm-2 control-label">Message</label>
                                 <div class="col-sm-10">
-                                <textarea placeholder="just a demo not functional" class="form-control" name="message" rows="4"></textarea>
+                                    <textarea placeholder="just a demo not functional" class="form-control" name="message" rows="4"></textarea>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-8 col-sm-offset-2">
-                                    <input value="Sent" type="submit" name="submit"  class="btn btn-primary btn-lg sentBtn">
-                                </div>
+                                    <input value="Sent" type="submit" name="submit" class="btn btn-primary btn-lg sentBtn"> </div>
                             </div>
                         </form>
                     </div>
@@ -228,7 +243,6 @@
             </div>
         </div>
     </section>
-    
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -237,23 +251,23 @@
                 </div>
                 <div class="col-sm-4">
                     <ul class="social-links">
-                        <li><a href=""><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
-                        <li><a href=""><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-                        <li><a href=""><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></li>
-                        <li><a href=""><i class="fa fa-weibo fa-2x" aria-hidden="true"></i></a></li>
+                        <li><a target="_blank" href=""><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+                        <li><a target="_blank" href=""><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+                        <li><a target="_blank" href=""><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></li>
+                        <li><a target="_blank" href=""><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
-            
-            <div class="col-sm-4 scroll-to-top-button">
-                   <a href="#cover"><i class="fa fa-chevron-circle-up fa-2x" aria-hidden="true"></i></a> 
-                </div>
-            
+                <div class="col-sm-4 scroll-to-top-button">
+                 <a href="#cover"><i class="fa fa-chevron-circle-up fa-2x" aria-hidden="true"></i></a>
+                 <a href="#cover"><i class="fa fa-arrow-circle-up fa-2x" aria-hidden="true"></i></a> </div>
             </div>
         </div>
     </footer>
+
     <script src="js/jquery-3.0.0.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <!--    <script src="js/main.js"></script>-->
 </body>
 
 </html>
