@@ -8,8 +8,10 @@
 */
     background-size: cover;
     color: white;
-/*    overflow:scroll;*/
-
+    /*    overflow:scroll;*/
+}
+.make2center{
+    text-align: center;
 }
 
 html,
@@ -24,8 +26,6 @@ body {
     */
     background: url('../img/pattern.jpg') center center;
 }
-
-
 
 @font-face {
     font-family: 'Cubano-Regular';
@@ -69,6 +69,7 @@ so take care of it*/
 }
 
 .myBtnStyles {
+    color: white;
     background-color: transparent;
     border: 1px solid rgba(255, 167, 0, 0.7);
     transition: 0.7s;
@@ -89,31 +90,29 @@ so take care of it*/
 
 /*navbar*/
 
-
 .navbar-brand {
     font-family: 'Cubano-Regular';
     /*    padding-right: 120px;*/
     color: white;
     font-size: 1.8rem;
 }
-.navbar-brand:hover{
-    color:white;
-}
 
+.navbar-brand:hover {
+    color: white;
+}
 
 #main-nav {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.4rem;
-/*    background-color: #373a3c;*/
-/*    color: #eceeef;*/
+    /*    background-color: #373a3c;*/
+    /*    color: #eceeef;*/
 }
 
-
 #main-nav li a {
-    color:#9a9c9d;
+    color: #9a9c9d;
     height: 40px;
     margin-left: 1rem;
-/*
+    /*
     padding-left: 3px;
     padding-right: 3px;
 */
@@ -122,16 +121,12 @@ so take care of it*/
     transition: 0.2s;
 }
 
-
-
 #main-nav li a:hover {
-/*    color: #eceeef;*/
-        background-color: transparent;
+    /*    color: #eceeef;*/
+    background-color: transparent;
     border-bottom-color: rgba(255, 167, 0, 0.9);
-
     transition: 0.2s;
 }
-
 
 .section-paths {
     padding: 5rem 0;
@@ -172,9 +167,8 @@ so take care of it*/
     padding-top: 5rem;
 }
 
-
 @media(min-width:440px) {
-    .myfont{
+    .myfont {
         padding: 10px;
         font-size: 1.1rem;
     }
@@ -189,20 +183,20 @@ so take care of it*/
         max-width: 100%;
         max-height: 50%;
     }
-        .myIntro {
+    .myIntro {
         width: auto;
-/*                word-wrap: break-word;*/
+        /*                word-wrap: break-word;*/
         font-size: 1.7rem;
         font-family: "Cubano-Regular";
-/*        margin-top: 15.3125rem;*/
-                    margin-top: 170px;
+        /*        margin-top: 15.3125rem;*/
+        margin-top: 170px;
         margin-left: 120px;
         /*            text-align: right;*/
     }
 }
 
 @media(min-width:840px) {
-    .myfont{
+    .myfont {
         padding: 10px;
         font-size: 1.1rem;
     }
@@ -217,20 +211,20 @@ so take care of it*/
         max-width: 100%;
         max-height: 50%;
     }
-        .myIntro {
+    .myIntro {
         width: auto;
-/*                word-wrap: break-word;*/
+        /*                word-wrap: break-word;*/
         font-size: 2rem;
         font-family: "Cubano-Regular";
-/*        margin-top: 15.3125rem;*/
-                    margin-top: 230px;
+        /*        margin-top: 15.3125rem;*/
+        margin-top: 230px;
         margin-left: 190px;
         /*            text-align: right;*/
     }
 }
 
 @media only screen and (min-width:1366px) {
-     #cover {
+    #cover {
         min-height: 100%;
     }
     .myQuote {
@@ -325,6 +319,7 @@ so take care of it*/
 }
 
 .timeline p {
+    word-wrap: break-word;
     font-family: "Nunito-Regular";
     font - weight: 700;
 }
@@ -376,9 +371,8 @@ h2{
 */
 
 #section-projects {
-/*    background-color: white;*/
-    
-/*    text-align: center;*/
+    /*    background-color: white;*/
+    /*    text-align: center;*/
     padding: 5rem 0;
 }
 
@@ -389,13 +383,13 @@ h2{
 
 .card img {
     height: 180px;
-    width:100%;
+    width: 100%;
     transition: 1s;
 }
 
 .card img:hover {
     transform: scale(0.9);
-        transition: 1s;
+    transition: 1s;
 }
 
 .card a {
@@ -417,7 +411,9 @@ h2{
     margin-top: 10px;
 }
 
-#contract .control-label {}
+#contact {
+    background-color: white;
+}
 
 .form-control {
     font-size: 18px;
