@@ -102,11 +102,10 @@ so take care of it*/
 
 
 #main-nav {
-        font-family: 'Cubano-Regular';
     font-family: 'Open Sans', sans-serif;
     font-size: 1.4rem;
-    background-color: #373a3c;
-    color: #eceeef;
+/*    background-color: #373a3c;*/
+/*    color: #eceeef;*/
 }
 
 
@@ -114,21 +113,23 @@ so take care of it*/
     color:#9a9c9d;
     height: 40px;
     margin-left: 1rem;
+/*
     padding-left: 3px;
     padding-right: 3px;
-    border-bottom: 5px solid;
+*/
+    border-bottom: 4px solid;
     border-bottom-color: transparent;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 
 
 #main-nav li a:hover {
-    color: #eceeef;
+/*    color: #eceeef;*/
         background-color: transparent;
     border-bottom-color: rgba(255, 167, 0, 0.9);
 
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 
@@ -362,7 +363,7 @@ so take care of it*/
 #section-paral {
     color: white;
     text-align: center;
-    background: url(../img/arizona-m.jpg) center repeat fixed;
+    background: url(../img/arizona-40.jpg) center repeat fixed;
     padding: 140px 0;
     background-size: cover;
 }
@@ -375,20 +376,26 @@ h2{
 */
 
 #section-projects {
-    text-align: center;
+/*    background-color: white;*/
+    
+/*    text-align: center;*/
     padding: 5rem 0;
 }
 
 .card {
+    background-color: white;
     margin-top: 3rem;
 }
 
 .card img {
+    height: 180px;
+    width:100%;
     transition: 1s;
 }
 
 .card img:hover {
     transform: scale(0.9);
+        transition: 1s;
 }
 
 .card a {

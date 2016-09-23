@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.5">
     <meta name="description" content="changchang's website">
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-<!--        <link rel="stylesheet" href="css/bootstrap.min.css">-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css">
+    <!--    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Changchang Hu</title>
 </head>
@@ -23,7 +23,7 @@
                         <br> a
                         <br> Journey. <a href="#" role="button" class="myfont btn btn-lg btn-primary ">
                            Start Journey
-                        </a> </p>   
+                        </a> </p>
                 </div>
                 <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
                     <h1 class="myIntro">
@@ -33,34 +33,21 @@
             </div>
         </div>
     </section>
-    
-    <nav id="main-nav" class="nav navbar-dark nav-bar" role="navigation">
-<!--        <div class="container-fluid">-->
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myTarget"> 
-<!--                <span class="sr-only">Menu</span>-->
-                 <i class="fa bold-color fa-bars fa-2x" aria-hidden="true"></i> </button> <a class="navbar-brand" href="#cover"><span class="bold-color ">Changchang'</span><span class="forWhite">'s Zone </span></a> </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="myTarget">
-                <ul class="nav navbar-nav">
-                    <li><a class="nav-link" href="#">Home</a></li>
-                    <li><a href="#">Status</a></li>
-                    <li><a href="#">Travel</a></li>
-                    <li><a href="#">Projects</a></li>
-                </ul>
-                <form class="navbar-form navbar-right" role="search">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search"> </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-            </div>
-            <!-- /.navbar-collapse -->
-<!--        </div>-->
-        <!-- /.container-fluid -->
+    <nav id="main-nav" class="navbar navbar-full navbar-dark bg-inverse"> <a class="navbar-brand" href="#cover"><span class="bold-color ">Changchang'</span><span class="forWhite">'s Zone </span></a>
+        <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation"> <i class="fa bold-color fa-bars fa-2x" aria-hidden="true"></i> </button>
+        <div class="collapse navbar-toggleable-sm" id="exCollapsingNavbar2">
+            <ul class="nav navbar-nav">
+                <li class="nav-item active"> <a class="nav-link" href="#">Home</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Status</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Travel</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Projects</a> </li>
+            </ul>
+            <form class="form-inline pull-md-right" action="post">
+            <input type="text" class="form-control" placeholder="not functional yet~~">
+            <button class="btn myBtnStyles " type="submit">Search</button>
+        </form>
+        </div>
     </nav>
-    
-    
     <section id="paths">
         <div class="section-paths">
             <div class="container">
@@ -91,10 +78,8 @@
             </div>
         </div>
     </section>
-
-<!--end of path-->
+    <!--end of path-->
     <!--start path timeline    -->
-    
     <section id="pathline" class="trevel">
         <div class="section-pathline">
             <div class="container">
@@ -155,7 +140,7 @@
                                 </div>
                                 <div class="timeline-body">
                                     <p> The U.S.S Midway USS Midway
-                                        <br> http://www.midway.org/
+                                        <br>  <a href="http://www.midway.org">http://www.midway.org</a>
                                         <br> Address: 910 N Harbor Drive, San Diego, CA, 92101
                                         <br> This is the US military during World War II aircraft carrier, Japan and the US famous Battle of Midway </p>
                                 </div>
@@ -166,43 +151,43 @@
             </div>
         </div>
     </section>
-<!--        end of pathline-->
+    <!--        end of pathline-->
     <section id="section-paral" data-type="backgournd" data-speed="4">
         <div class="container">
             <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <h2>Intersting in Treavel?</h2> </div>
-            </div>
+                <h2>Intersting in Treavel?</h2> </div>
         </div>
     </section>
     <section id="section-projects">
         <div class="container">
-            <div class="row">
+            <div class=" row">
                 <h2>My <span class="bold-color">Projects</span>(Comming Soon...)</h2> </div>
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-xs-12 col-sm-4">
                     <div class="card">
                         <div class="card-block">
                             <h4 class="card-title">Card title</h4>
-                            <h6 class="card-subtitle text-muted">Support card subtitle</h6> </div> <img src="..." alt="Card image">
+                            <h6 class="card-subtitle text-muted">Support card subtitle</h6> </div> <img src="img/placeholder.png" alt="Card image">
                         <div class="card-block">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> <a href="#" class="card-link">Card link</a> <a href="#" class="card-link">Another link</a> </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-xs-12 col-sm-4">
                     <div class="card">
                         <div class="card-block">
-                            <h4 class="card-title">Card title</h4>
-                            <h6 class="card-subtitle text-muted">Support card subtitle</h6> </div> <img src="..." alt="Card image">
+                            <h4 class="card-title">Color Escape</h4>
+                            <h6 class="card-subtitle text-muted">By <a href="https://www.linkedin.com/in/zixiangzhou">Zixing Zhou</a> &amp; Changchang Hu</h6> </div> <img src="img/color.jpg"  alt="the cover of the game">
                         <div class="card-block">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> <a href="#" class="card-link">Card link</a> <a href="#" class="card-link">Another link</a> </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                             <a target="_blank" href="https://d.pr/1dFlb" class="card-link">Play</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-xs-12 col-sm-4">
                     <div class="card">
                         <div class="card-block">
                             <h4 class="card-title">Card title</h4>
-                            <h6 class="card-subtitle text-muted">Support card subtitle</h6> </div> <img src="..." alt="Card image">
+                            <h6 class="card-subtitle text-muted">Support card subtitle</h6> </div> <img src="img/placeholder.png" alt="Card image">
                         <div class="card-block">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> <a href="#" class="card-link">Card link</a> <a href="#" class="card-link">Another link</a> </div>
                     </div>
@@ -210,6 +195,7 @@
             </div>
         </div>
     </section>
+
     <section id="contact">
         <div class="section-contact">
             <div class="container">
@@ -257,16 +243,14 @@
                         <li><a target="_blank" href=""><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
-                <div class="col-sm-4 scroll-to-top-button">
-                 <a href="#cover"><i class="fa fa-chevron-circle-up fa-2x" aria-hidden="true"></i></a>
-                 <a href="#cover"><i class="fa fa-arrow-circle-up fa-2x" aria-hidden="true"></i></a> </div>
+                <div class="col-sm-4 scroll-to-top-button"> <a href="#cover"><i class="fa fa-chevron-circle-up fa-2x" aria-hidden="true"></i></a> <a href="#cover"><i class="fa fa-arrow-circle-up fa-2x" aria-hidden="true"></i></a> </div>
             </div>
         </div>
     </footer>
-
     <script src="js/jquery-3.0.0.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.4/js/bootstrap.min.js"></script>
     <!--    <script src="js/main.js"></script>-->
 </body>
 
