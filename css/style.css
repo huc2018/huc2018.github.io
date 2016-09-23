@@ -10,9 +10,6 @@
     color: white;
     /*    overflow:scroll;*/
 }
-.make2center{
-    text-align: center;
-}
 
 html,
 body {
@@ -127,6 +124,8 @@ so take care of it*/
     border-bottom-color: rgba(255, 167, 0, 0.9);
     transition: 0.2s;
 }
+
+/*pathline*/
 
 .section-paths {
     padding: 5rem 0;
